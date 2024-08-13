@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="300;url=index.html">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="preloader.css">
+    <title>1-home</title>
+    <!-- on touch sound javascript -->
+    <script>
+        var bleep = new Audio();
+        bleep.src = "sound/Htc Unlock Screen.mp3";
+    </script>
+    <!-- onmousedown="bleep.play()" -->
+
+</head>
+<style>
+    body {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.591), rgba(0, 0, 0, 0.701)), url("images/GMC-Slider-1200x450.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        max-width: 100%;
+        max-height: 100%;
+        background-size: cover;
+        background-position: center center;
+    }
+
+
+    .animate-charcter {
+        text-transform: uppercase;
+        background-image: linear-gradient(-225deg,
+                #6bff01 20%,
+                #c4f8a6 20%,
+                #f5bd05 67%,
+                #efebe3 100%);
+        background-size: auto auto;
+        background-clip: border-box;
+        background-size: 200% auto;
+        color: #fff;
+        font-size: 3vw;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: textclip 2s linear infinite;
+        filter: drop-shadow(5px 5px 8px black);
+    }
+
+    @keyframes textclip {
+        to {
+            background-position: 200% center;
+        }
+    }
+
+    .card-bg {
+        background-color: #efebe301;
+        border: 0;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    .crd {
+        text-decoration: none;
+    }
+
+    .crd:hover {
+        filter: drop-shadow(5px 5px 8px rgb(227, 196, 102));
+        transform: scale(1.10);
+    }
+
+    .bottom-name {
+        background-color: rgba(26, 26, 26, 0.796);
+        position: fixed;
+        bottom: 0%;
+        color: White;
+        width: 100%;
+    }
+
+    .about {
+        text-align: justify;
+        text-justify: initial;
+        font-size: 0.95rem;
+    }
+</style>
+
+<body>
+    <audio src="sound/Welcome GMC Helpdesk.mp3" id="my_audio" autoplay="autoplay"></audio>
+    <script type="text/javascript">
+        window.onload = function () {
+            document.getElementById("my_audio").play();
+        }
+    </script>
+    <nav class="navbar shadow w-100" style="max-width: 100%; min-width: 50%;">
+        <div class="row col-lg-12">
+            <div class="col text-left my-auto">
+                <a class="navbar-brand" href="index.html" onmousedown="bleep.play()">
+                    <img src="images/gmc-logo.png" width="130" alt="">
+                </a>
+            </div>
+            <div class="col my-auto text-center">
+                  <div class="card card-bg">
+                    <div class="card-body">
+                        <h1 class="animate-charcter text-nowrap font-weight-bold">GMC <i class="fa fa-handshake-o"></i>
+                            HELPDESK</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col text-right my-auto">
+                <a class="navbar-brand" href="index.html" onmousedown="bleep.play()">
+                    <img src="images/smart-city-logo.jpeg" width="75" alt="" style="border-radius: 5%;">
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="card mt-5 text-white" style="background-color: #86868667;">
+            <div class="card-body">
+                <h5 class="text-center">Welcome To Gandhinagar Municipal Corporation</h5>
+                <p class="about">
+                    Prior to the formation of Gandhinagar Municipal Corporation on March 16, 2010, following the 2009
+                    judgment of the Gujarat High Court, the city was the only notified area capital of any state in the
+                    country, where the city was not governed by any elected body. But after the formation of the
+                    corporation, taxes were made for the residents by the Gandhinagar Municipal Corporation. As a result
+                    of which the inclusion of the city in the Jawaharlal Nehru Urban Renewal Mission made it possible to
+                    receive development funding from the Government of India and now the city is leading the way in
+                    providing excellent civic services and various infrastructural facilities.
+                </p>
+            </div>
+        </div>
+        <div class="card" style="background-color: rgba(0, 0, 0, 0); border: 0px solid black;">
+            <div class="card-body text-white text-center py-4">
+                <font size="5"><i class="fa fa-language"></i> Select Language / ભાષા પસંદ કરો / भाषा का चयन करें।</font>
+            </div>
+        </div>
+        <div class="row mx-auto w-100">
+            <div class="col">
+                <a href="English/1-main.html">
+                    <div class="card ml-auto" style="border-radius: 5%; border: 2px solid black; width: 10rem;">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <img src="icon/eng-icon.png" alt="" width="90px"><br>
+                                <font size="4" class="font-weight-bold">
+                                    English
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            </a>
+            <div class="col">
+                <a href="Gujarati/1-main.html">
+                    <div class="card mx-auto" style="border-radius: 5%; border: 2px solid black; width: 10rem;">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <img src="icon/guj-icon.png" alt="" width="90px"><br>
+                                <font size="4" class="font-weight-bold">
+                                    ગુજરાતી
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="">
+                    <div class="card" style="border-radius: 5%; border: 2px solid black; width: 10rem;">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <img src="icon/hindi-icon.png" alt="" width="90px"><br>
+                                <font size="4" class="font-weight-bold">
+                                    हिंदी
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom-name">
+        <marquee direction="left">
+            Developed By : Om Bhatt - Krisha Mekhiya - Hritika Jadeja - Manan Gundigara  
+        </marquee>
+    </div>
+  <!-- loader script  -->
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load",function(){
+            loader.style.display = "none";
+        })
+    </script>
+   </body>
+
+</html>
