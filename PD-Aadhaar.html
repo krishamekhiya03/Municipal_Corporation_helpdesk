@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="300;url=../../index.html">
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="preloader.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>1-home</title>
+    <!-- on touch sound javascript -->
+    <script>
+        var bleep = new Audio();
+        bleep.src = "sound/Htc Unlock Screen.mp3";
+    </script>
+    <!-- onmousedown="bleep.play()" -->
+
+</head>
+<style>
+    body {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.591), rgba(0, 0, 0, 0.701)), url("../../images/GMC-Slider-1200x450.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        max-width: 100%;
+        max-height: 100%;
+        background-size: cover;
+        background-position: center center;
+    }
+
+
+    .animate-charcter {
+        text-transform: uppercase;
+        background-image: linear-gradient(-225deg,
+                #6bff01 20%,
+                #c4f8a6 20%,
+                #f5bd05 67%,
+                #efebe3 100%);
+        background-size: auto auto;
+        background-clip: border-box;
+        background-size: 200% auto;
+        color: #fff;
+        font-size: 3vw;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: textclip 2s linear infinite;
+        filter: drop-shadow(5px 5px 8px black);
+    }
+
+    @keyframes textclip {
+        to {
+            background-position: 200% center;
+        }
+    }
+
+    .card-bg {
+        background-color: #efebe301;
+        border: 0;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    .crd {
+        text-decoration: none;
+    }
+
+    .crd:hover {
+        filter: drop-shadow(5px 5px 8px rgb(227, 196, 102));
+        transform: scale(1.10);
+    }
+
+    .bottom-name {
+        background-color: rgba(26, 26, 26, 0.796);
+        position: fixed;
+        bottom: 0%;
+        color: White;
+        width: 100%;
+    }
+
+    .about {
+        text-align: justify;
+        text-justify: initial;
+        font-size: 0.95rem;
+    }
+
+    .s-box {
+        border-radius: 30%;
+        width: 12rem;
+    }
+
+    .arrow {
+        animation: shake infinite 1.5s cubic-bezier(.36, .07, .19, .97);
+        transform: translate3d(0, 0, 0);
+    }
+
+    @keyframes shake {
+
+        10%,
+        90% {
+            transform: translate3d(-1px, 0, 0);
+        }
+
+        20%,
+        80% {
+            transform: translate3d(2px, 0, 0);
+        }
+
+        30%,
+        50%,
+        70% {
+            transform: translate3d(-4px, 0, 0);
+        }
+
+        40%,
+        60% {
+            transform: translate3d(4px, 0, 0);
+        }
+    }
+
+    .c-change {
+        animation-name: color_change;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @-webkit-keyframes color_change {
+        from {
+            background-color: blue;
+        }
+
+        to {
+            background-color: red;
+        }
+    }
+
+    @-moz-keyframes color_change {
+        from {
+            background-color: blue;
+        }
+
+        to {
+            background-color: red;
+        }
+    }
+
+    @-ms-keyframes color_change {
+        from {
+            background-color: blue;
+        }
+
+        to {
+            background-color: red;
+        }
+    }
+
+    @-o-keyframes color_change {
+        from {
+            background-color: blue;
+        }
+
+        to {
+            background-color: red;
+        }
+    }
+
+    @keyframes color_change {
+        from {
+            background-color: blue;
+        }
+
+        to {
+            background-color: red;
+        }
+    }
+
+    /* buttton */
+</style>
+
+<body>
+    <nav class="navbar shadow w-100" style="max-width: 100%; min-width: 50%;">
+        <div class="row col-lg-12">
+            <div class="col-3 text-left my-auto">
+                <a class="navbar-brand" href="../../index.html" onmousedown="bleep.play()">
+                    <img src="../../images/gmc-logo.png" width="130" alt="">
+                </a>
+            </div>
+            <div class="col-6 my-auto text-center">
+                  <div class="card card-bg">
+                    <div class="card-body">
+                        <h1 class="animate-charcter text-nowrap font-weight-bold">GMC <i class="fa fa-handshake-o"></i>
+                            HELPDESK</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 text-right my-auto">
+                <a onmousedown="bleep.play()" class="btn btn-outline-light mx-2" href="Aadhar-cert-info.html"><i
+                        class="fa fa-arrow-left fa-2x"></i>
+                    <h6>Back</h6>
+                </a>
+                <a onmousedown="bleep.play()" class="btn btn-outline-light" href="../../1-home.html"><i
+                        class="fa fa-home fa-2x"></i>
+                    <h6>Home</h6>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container h-100 w-100 ">
+        <div class="card my-2">
+            <!-- <div class="card-header text-center">
+                <font size="6"><img class="my-auto" src="../icons/hand-in-hand.png" alt="" width="30px">Marriage
+                    Certificate
+                </font>
+            </div> -->
+            <div class="card-header text-center">
+                <font class="mx-auto" size="4">Officer Information</font>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-sm-12">
+
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="row">
+                                    <img class="mx-auto" src="../icons/user.jpg" alt="Officer" width="50%">
+                                </div>
+                                <div class="col-sm-12 text-center">
+                                    <h5 class="my-2">
+                                        Officer Name
+                                    </h5>
+                                </div>
+                                <div class="col-sm-12 text-center">
+                                    <p class="mb-0">
+                                        Role
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-8">
+                                <div class="row">
+                                    <div class="col-sm-12 text-center mb-3 bg-light">
+                                        <font size="4">Information</font>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <p class="mb-1">Name :</p>
+                                        <h6>Officer Name</h6>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <p class="mb-1">E-mail :</p>
+                                        <h6>abcdefg@gmail.com</h6>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12 text-center mt-2 bg-light">
+                                        <font size="4">Location</font>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <p class="mb-1">Floor :</p>
+                                        <h6>xx floor</h6>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <p class="mb-1">Ward :</p>
+                                        <h6>xx</h6>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <p class="mb-1">Office No :</p>
+                                        <h6>xx</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navigation -->
+        <!--Photo Navigation start -->
+        <div class="row">
+            <div class="mx-auto">
+                <div class="card-header py-1">
+                    <font size="4" class="text-center text-white font-weight-bold">Navigation</font>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- img 1 -->
+            <div class="col">
+                <div class="hcard mx-auto" style="width: 10rem;" data-toggle="modal" data-target="#exampleModalCenter1">
+                    <img data-enlargable width="100" src="../icons/step-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body p-0">
+                        <h5 class="card-title my-auto text-center text-white">Step 1<i
+                                class="fa fa-angle-double-right"></i>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <!-- modal  -->
+            <!-- Modal 1 -->
+            <!-- Button trigger modal -->
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true"
+                style="background-color: rgba(0, 0, 0, 0.683);">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content" style="background-color: rgba(0, 0, 0, 0); border: none;">
+                        <div class="modal-header text-white">
+                            <h5 class="modal-title " id="exampleModalLongTitle">Step 1</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true" class="text-white">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body bg-light">
+                            <img data-enlargable width="100%" src="../icons/step-1.jpg" alt="...">
+                        </div>
+                        <div class="modal-footer">
+                            <div class="mr-auto">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            </div>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter2" data-dismiss="modal">Next Step &rarr;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- modal end  -->
+            <i class="fa fa-arrow-right fa-2x text-white mx-0 my-auto arrow"></i>
+            <!-- img 2 -->
+            <div class="col">
+                <div class="hcard mx-auto" style="width: 10rem;" data-toggle="modal" data-target="#exampleModalCenter2">
+                    <img data-enlargable width="100" src="../icons/step-2.jpg" class="card-img-top"
+                        alt="...">
+                    <div class="card-body p-0">
+                        <h5 class="card-title my-auto text-center text-white ">Step 2 <i
+                                class="fa fa-angle-double-right"></i>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <i class="fa fa-arrow-right fa-2x text-white mx-0 my-auto arrow"></i>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true"
+                style="background-color: rgba(0, 0, 0, 0.683);">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content" style="background-color: rgba(0, 0, 0, 0); border: none;">
+                        <div class="modal-header text-white">
+                            <h5 class="modal-title " id="exampleModalLongTitle">Step 2</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true" class="text-white">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body bg-light">
+                            <img data-enlargable width="100%" src="../icons/step-2.jpg"  alt="...">
+                        </div>
+                        <div class="modal-footer">
+                            <div class="mr-auto">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            </div>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter3" data-dismiss="modal">Next Step &rarr;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- modal end  -->
+            <!-- img 3 -->
+            <div class="col">
+                <div class="hcard mx-auto" style="width: 10rem;" data-toggle="modal" data-target="#exampleModalCenter3">
+                    <img data-enlargable width="100" src="../icons/step-3.jpg" class="card-img-top"
+                        alt="...">
+                    <div class="card-body p-0">
+                        <h5 class="card-title my-auto text-center text-white" >Step 3 <i
+                                class="fa fa-angle-double-right"></i>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <!-- img card  -->
+            <i class="fa fa-arrow-right fa-2x text-white mx-0 my-auto arrow"></i>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true"
+                style="background-color: rgba(0, 0, 0, 0.683);">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content" style="background-color: rgba(0, 0, 0, 0); border: none;">
+                        <div class="modal-header text-white">
+                            <h5 class="modal-title " id="exampleModalLongTitle">Step 3</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true" class="text-white">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body bg-light">
+                            <img data-enlargable width="100%" src="../icons/step-3.jpg"  alt="...">
+                        </div>
+                        <div class="modal-footer">
+                            <div class="mr-auto">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            </div>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter4" data-dismiss="modal">Next Step &rarr;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- modal end  -->
+            <!-- img 4 -->
+            <div class="col">
+                <div class="hcard mx-auto" style="width: 10rem;" data-toggle="modal" data-target="#exampleModalCenter3">
+                    <img data-enlargable width="100" src="../icons/step-4.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body p-0">
+                        <h5 class="card-title my-auto text-center text-white"><i class="fa fa-map-marker"></i> Step 4
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenterTitle" aria-hidden="true"
+            style="background-color: rgba(0, 0, 0, 0.683);">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content" style="background-color: rgba(0, 0, 0, 0); border: none;">
+                    <div class="modal-header text-white">
+                        <h5 class="modal-title " id="exampleModalLongTitle">Step 4</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true" class="text-white">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <img data-enlargable width="100%" src="../icons/step-4.jpg" alt="...">
+                    </div>
+                    <div class="modal-footer">
+                        <div class="mr-auto">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- modal end  -->
+        </div>
+        <!-- Photo Navigation End -->
+    </div>
+
+    <div class="bottom-name">
+        <marquee direction="left">
+            Developed By : Om Bhatt - Manan Gundigara - Devang Bhatt - Jay Nirmal - Mauli Barevadiya - Hritika Jadeja -
+            Krisha Mekhiya - Khusharth Oza
+        </marquee>
+    </div>
+
+
+  <!-- loader script  -->
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load",function(){
+            loader.style.display = "none";
+        })
+    </script>
+   </body>
+
+</html>

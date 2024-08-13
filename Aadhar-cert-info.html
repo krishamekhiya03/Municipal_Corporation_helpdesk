@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="300;url=../../index.html">
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="preloader.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>1-home</title>
+    <!-- on touch sound javascript -->
+    <script>
+        var bleep = new Audio();
+        bleep.src = "sound/Htc Unlock Screen.mp3";
+    </script>
+    <!-- onmousedown="bleep.play()" -->
+
+</head>
+<style>
+    body {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.591), rgba(0, 0, 0, 0.701)), url("../../images/GMC-Slider-1200x450.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        max-width: 100%;
+        max-height: 100%;
+        background-size: cover;
+        background-position: center center;
+    }
+
+
+    .animate-charcter {
+        text-transform: uppercase;
+        background-image: linear-gradient(-225deg,
+                #6bff01 20%,
+                #c4f8a6 20%,
+                #f5bd05 67%,
+                #efebe3 100%);
+        background-size: auto auto;
+        background-clip: border-box;
+        background-size: 200% auto;
+        color: #fff;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: textclip 2s linear infinite;
+        filter: drop-shadow(5px 5px 8px black);
+        font-size: 3vw;
+    }
+
+    @keyframes textclip {
+        to {
+            background-position: 200% center;
+        }
+    }
+
+    .card-bg {
+        background-color: #efebe301;
+        border: 0;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    .crd {
+        text-decoration: none;
+    }
+
+    .crd:hover {
+        filter: drop-shadow(5px 5px 8px rgb(227, 196, 102));
+        transform: scale(1.10);
+    }
+
+    .bottom-name {
+        background-color: rgba(26, 26, 26, 0.796);
+        position: fixed;
+        bottom: 0%;
+        color: White;
+        width: 100%;
+    }
+
+    .about {
+        text-align: justify;
+        text-justify: initial;
+        font-size: 0.95rem;
+    }
+
+    .s-box {
+        border-radius: 30%;
+        width: 12rem;
+    }
+
+
+    /* buttton */
+</style>
+
+<body>
+    <nav class="navbar shadow w-100" style="max-width: 100%; min-width: 50%;">
+        <div class="row w-100">
+            <div class="col-3 text-left my-auto">
+                <a class="navbar-brand" href="../../1-home.html" onmousedown="bleep.play()">
+                    <img src="../../images/gmc-logo.png" width="130" alt="">
+                </a>
+            </div>
+            <div class="col-6 my-auto text-center">
+                  <div class="card card-bg">
+                    <div class="card-body">
+                        <h1 class="animate-charcter text-nowrap font-weight-bold">GMC <i class="fa fa-handshake-o"></i>
+                            HELPDESK</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col text-right my-auto">
+                <a onmousedown="bleep.play()" class="btn btn-outline-light mx-2" href="../1.1-form-cert.html"><i
+                        class="fa fa-arrow-left fa-2x"></i>
+                    <h6>Back</h6>
+                </a>
+                <a onmousedown="bleep.play()" class="btn btn-outline-light" href="../../1-home.html"><i
+                        class="fa fa-home fa-2x"></i>
+                    <h6>Home</h6>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container h-100 w-100 ">
+        <div class="card my-4">
+            <div class="card-header text-center">
+                <font size="6"><img class="my-auto" src="../icons/aadhar-card.png" alt="" width="30px">Aadhar Enrollment/Correction 
+                </font>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <!--left side-->
+                    <div class="col-sm-8">
+                        <div class="row">
+                            <div class="col about">
+                                <font size="4rem" class="font-weight-bold bg-light">&#10153; How to Apply for Aadhar Enrollment/Correction Offline in GMC ?
+                                </font>
+                                <div class="col" style="height: 18em; overflow-y: auto">
+                                    <font size="3rem">
+                                        <br>
+                                        <ul>
+                                            <li>Step 1: Locate An Enrollment Centre.
+                                            </li>
+                                            <li>
+                                                Step 2: Fill The Form.
+                                            </li>
+                                            <li>
+                                                Step 3: Submit The Required Documents.
+                                            </li>
+                                            <li>
+                                                Step 4: Provide Demographic & Biographic Details.
+                                            </li>
+                                            <li>
+                                                Step 5: Get The Acknowledgement Slip.
+                                            </li>
+                                       </ul>
+                                    </font>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- right side  -->
+                    <div class="col-sm-4">
+                        <div class="row">
+                            <div class="col about">
+                                <font size="4rem" class="font-weight-bold bg-light">Required Document</font>
+                                <div class="col" style="height: 18em; overflow-y: auto">
+                                    <font size="3rem">
+                                        <br>
+                                        <ul>
+                                            <li>Proof of Identity (POI) Documents - Comprising Name and Photograph</li>
+                                            <ul>
+                                                <li>Passport</li>
+                                                <li>PAN Card</li>
+                                                <li>Ration/ PDS Photo Card</li>
+                                                <li>Voter ID</li>
+                                                <li>Driving License</li>
+                                            </ul>
+                                            <li>Proof of Date of Birth (DOB) Documents for Aadhar Card of Family if Required</li>
+                                            <ul>
+                                                <li>Birth Certificate</li>
+                                                <li>SSLC Book/ Certificate</li>
+                                                <li>Passport</li>
+                                                <li>Certificate of Date of Birth issued by Group A Gazetted
+                                                    Officer on UIDAI standard certificate format for enrolment/
+                                                    update</li>
+                                                <li>PAN Card</li>
+                                            </ul>
+                                            <li>Proof of Address (POA) Documents for Aadhar Card - Comprising Name and Address</li>
+                                            <ul>
+                                                <li>Passport</li>
+                                                <li>Bank Statement/ Passbook</li>
+                                                <li>Post Office Account Statement/ Passbook</li>
+                                                <li>Ration Card</li>
+                                                <li>Driving License</li>
+                                            </ul>
+                                        </ul>
+                                    </font>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- bottom  -->
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-sm-2 text-center">
+                    <a class="text-white btn btn-danger mb-3" data-toggle="modal" data-target="#myModal"><img
+                            src="../icons/view.png" alt="" width="20px">
+                        <font> See Form</font>
+                    </a>
+                </div>
+                <div class="col-sm-2 text-left">
+                    <a href="PD-Aadhaar.html" class="btn btn-primary mb-3"><img src="../icons/officer.png" alt=""
+                            width="20px">
+                        <font>Meet Officer</font>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom-name">
+        <marquee direction="left">
+            Developed By : Om Bhatt - Manan Gundigara - Devang Bhatt - Jay Nirmal - Mauli Barevadiya - Hritika Jadeja -
+            Krisha Mekhiya - Khusharth Oza
+        </marquee>
+    </div>
+
+
+    <!-- modals -->
+    <!-- pdf marrige form  -->
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Form</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <div class="modal-body" style="height: 30em;">
+                    <!-- <object data="../icons/hackathon file (1).pdf" type="application/pdf" width="100%" height="100%"> -->
+                    <embed src="../../documents/Aadhaar_Enrolment_Correction_Form.pdf#toolbar=0" width="100%" height="100%" />
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <!-- loader script  -->
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load",function(){
+            loader.style.display = "none";
+        })
+    </script>
+   </body>
+
+</html>
